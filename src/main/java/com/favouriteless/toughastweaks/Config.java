@@ -8,6 +8,8 @@ public class Config {
 	public static final ForgeConfigSpec.Builder BUILDER = new ForgeConfigSpec.Builder();
 	public static final ForgeConfigSpec SPEC;
 
+	public static ConfigValue<Boolean> DISABLE_THERMAL_TUNING;
+
 	public static class Minecraft {
 		public static ConfigValue<Boolean> ENABLE;
 		public static ConfigValue<Boolean> FURNACE_HEAT;
@@ -27,8 +29,9 @@ public class Config {
 	}
 
 	static {
-		BUILDER.comment("*The game must be restarted for most of these to take effect");
+		DISABLE_THERMAL_TUNING = BUILDER.comment("Disable obtaining the thermal tuning enchantment from normal means #default false").define("disable_thermal_tuning", false);
 
+		BUILDER.comment("*The game must be restarted for most of these to take effect");
 		BUILDER.push("Minecraft Integrations");
 		Minecraft.ENABLE = BUILDER.comment("Enable Minecraft integrations").define("enable_minecraft", false);
 		Minecraft.FURNACE_HEAT = BUILDER.comment("Lit furnaces act as a heat source #default true").define("furnace_heat", true);
