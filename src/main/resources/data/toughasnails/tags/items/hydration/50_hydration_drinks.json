@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    {"id": "create:builders_tea", "required": false },
+    {"id": "croptopia:beer", "required": false },
+    {"id": "croptopia:rum", "required": false },
+    {"id": "croptopia:wine", "required": false },
+    {"id": "croptopia:limeade", "required": false },
+    {"id": "croptopia:mead", "required": false }
+  ]
+}

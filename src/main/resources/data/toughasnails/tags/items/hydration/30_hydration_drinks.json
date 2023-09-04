@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "croptopia:tea", "required": false},
+    { "id": "croptopia:soy_milk", "required": false},
+    { "id": "croptopia:lemonade", "required": false},
+    { "id": "croptopia:coffee", "required": false}
+  ]
+}

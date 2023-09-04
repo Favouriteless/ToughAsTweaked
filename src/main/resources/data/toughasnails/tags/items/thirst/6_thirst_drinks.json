@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "farmersdelight:hot_cocoa", "required": false},
+    { "id": "croptopia:wine", "required": false},
+    { "id": "croptopia:mead", "required": false},
+    { "id": "croptopia:rum", "required": false},
+    { "id": "croptopia:pumpkin_spice_latte", "required": false},
+    { "id": "croptopia:horchata", "required": false},
+    { "id": "croptopia:limeade", "required": false}
+  ]
+}

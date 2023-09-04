@@ -1,0 +1,6 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "croptopia:soy_milk", "required": false}
+  ]
+}
