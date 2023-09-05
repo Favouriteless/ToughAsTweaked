@@ -4,8 +4,7 @@
   "compatibilityLevel": "JAVA_17",
   "refmap": "toughastweaks.refmap.json",
   "mixins": [
-    "MixinEnchantment",
-    "MixinTemperatureHelperImpl"
+    "MixinEnchantment"
   ],
   "client": [
   ],
